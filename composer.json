@@ -1,7 +1,7 @@
 {
-  "name": "hda-typo3/project",
+  "name": "hda/project",
   "type": "typo3-cms-extension",
-  "description": "HDA - project extension",
+  "description": "Extension for displaying the projects",
   "authors": [
     {
       "name": "Michael Lang",
@@ -11,17 +11,13 @@
   ],
   "license": ["GPL-2.0-or-later"],
   "keywords": [
-    "hda"
+    "extension",
+    "t3up"
   ],
-  "autoload": {
-      "psr-4": {
-          "Hda\\Project\\": "Classes"
-      }
-  },
   "require": {
       "php": ">= 8.1 < 8.4",
       "typo3/cms-core": "^12.4"
-  },
+    },
   "extra": {
     "typo3/cms": {
       "extension-key": "project"

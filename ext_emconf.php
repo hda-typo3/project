@@ -8,15 +8,10 @@ $EM_CONF[$_EXTKEY] = [
     'author_email' => 'michael.lang@h-da.de',
     'state' => 'alpha',
     'clearCacheOnLoad' => 0,
-    'version' => '12.0.03',
-    'autoload' => [
-        'psr-4' => [
-            'Hda\\Project\\' => 'Classes',
-        ],
-    ],
+    'version' => '1.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '11.4'
+            'typo3' => '12.4'
         ],
         'conflicts' => [],
         'suggests' => [],
