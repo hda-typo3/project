@@ -1,5 +1,5 @@
 {
-  "name": "hda/project",
+  "name": "hda-typo3/project",
   "type": "typo3-cms-extension",
   "description": "Extension for displaying the projects",
   "authors": [
