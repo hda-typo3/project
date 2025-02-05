@@ -1,0 +1,141 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Measure</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>                           
+                    
+
+                <settings.category>
+                    <TCEforms>
+                        <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:categories</label>
+                        <config>
+                            <renderType>selectSingle</renderType>
+                            <type>select</type>
+                            <foreign_table>tx_project_domain_model_category</foreign_table>
+                            <foreign_table_where>AND  tx_project_domain_model_category.hidden=0  AND  tx_project_domain_model_category.sys_language_uid=0 ORDER BY  tx_project_domain_model_category.title</foreign_table_where>
+                            <minitems>1</minitems>
+                            <maxitems>1</maxitems>
+                            <size>5</size>
+                        </config>
+                    </TCEforms>
+                </settings.category>  
+
+                <settings.sortby>
+                    <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:sortby</label>
+                    <config>
+                        <type>select</type>
+                        <renderType>selectSingle</renderType> 
+                        <items>
+                            <numIndex index="0" type="array">
+                                <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:sortby.0</label>
+                                <value>title</value>
+                            </numIndex>
+                            <numIndex index="1" type="array">
+                                <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:sortby.1</label>
+                                <value>date</value>
+                            </numIndex>
+                            <numIndex index="2" type="array">
+                                <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:sortby.2</label>
+                                <value>semester</value>
+                            </numIndex>
+                        </items>
+                         <default>title</default>
+                    </config>
+                </settings.sortby>
+                
+                <settings.asc>
+                    <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:asc</label>
+                    <config>
+                        <type>check</type>
+                        <items>
+                            <numIndex index="0" type="array">
+                                <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:asc.0</label>
+                                <value></value>
+                            </numIndex>
+                        </items>
+                         <default>1</default>
+                    </config>
+                </settings.asc>
+                
+                <settings.paginate>                
+                    <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:pagination</label>
+                    <config>
+                        <type>check</type>
+                        <items>
+                            <numIndex index="0" type="array">
+                                <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:show</label>
+                                <value></value>
+                            </numIndex>
+                        </items>
+                        <default></default>
+                    </config>
+                </settings.paginate>
+                         
+                  <settings.itemPerPage>
+                    <TCEforms>
+                        <exclude>0</exclude>
+                        <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:itemsperpage</label>
+                        <displayCond>
+                            <OR>
+                                <numIndex index="0">FIELD:sDEF.settings.paginate:=:1</numIndex>
+                            </OR>
+                        </displayCond>
+                        <config>
+                            <type>input</type>
+                            <size>1</size>
+                            <default>10</default>
+                            <eval>int</eval>
+                            <range>
+                                <lower>1</lower>
+                                <upper>100</upper>
+                            </range>
+                            <wizards>
+                                <slideshow>
+                                    <type>slider</type>
+                                    <step>1</step>
+                                </slideshow>
+                            </wizards>
+                        </config> 
+                    </TCEforms>
+                </settings.itemPerPage>
+                
+                <settings.maximumLinks>
+                    <TCEforms>
+                        <exclude>0</exclude>
+                        <label>LLL:EXT:project/Resources/Private/Language/locallang_flexform.xlf:maximumLinks</label>
+                        <displayCond>
+                            <OR>
+                                <numIndex index="0">FIELD:sDEF.settings.paginate:=:1</numIndex>
+                            </OR>
+                        </displayCond>       
+                        <config>
+                            <type>input</type>
+                            <size>1</size>
+                            <default>10</default>
+                            <eval>int</eval>
+                            <range>
+                                <lower>1</lower>
+                                <upper>100</upper>
+                            </range>
+                            <wizards>
+                                <slideshow>
+                                    <type>slider</type>
+                                    <step>1</step>
+                                </slideshow>
+                            </wizards>
+                        </config> 
+                    </TCEforms>
+                </settings.maximumLinks>
+                             
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

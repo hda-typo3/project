@@ -1,0 +1,23 @@
+{
+    "name": "hda-typo3/project",
+    "type": "typo3-cms-extension",
+    "description": "Extension for display the projects",
+    "authors": [
+        {
+            "name": "Michael Lang",
+            "role": "Developer"
+        }
+    ],
+  "license": ["GPL-2.0-or-later"],
+  "keywords": [
+    "extension"
+  ],
+    "require": {
+        "typo3/cms-core": "^12.4"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "project"
+        }
+    }
+}

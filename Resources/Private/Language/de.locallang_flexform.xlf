@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="de" datatype="plaintext" date="2021-11-04T13:09:36Z" product-name="projects">
+        <header/>
+        <body>
+
+            <trans-unit id="startingpoint">
+                <source>Startingpoint</source>
+                <target state="translated">Ausgangspunkt</target>                
+            </trans-unit>    
+            
+            <trans-unit id="categories">
+                <source>Categories</source>
+                <target state="translated">Kategorien</target>                
+            </trans-unit>    
+        
+           <trans-unit id="itemsperpage">
+                <source>ItemPerPage</source>
+                <target state="translated">Anzahl, der angezeigten Datensätze.</target>
+            </trans-unit>  
+                              
+            <trans-unit id="maximumLinks">
+                <source>Max. links</source>
+                <target state="translated">Max. Anzahl, der Links.</target>
+            </trans-unit>    
+        
+            <trans-unit id="sheet_display">
+                <source>Display</source>
+                <target state="translated">Darstellung</target>
+            </trans-unit>    
+                          
+            <trans-unit id="pagination">
+                <source>Pagination</source>
+                <target state="translated">Seitenpaginierung</target>
+            </trans-unit>        
+            
+            <trans-unit id="pagination.0">
+                <source>no</source>
+                <target state="translated">keine anzeigen</target>
+            </trans-unit>       
+             
+            <trans-unit id="pagination.1">
+                <source>yes</source>
+                <target state="translated">anzeigen</target>
+            </trans-unit>    
+            
+            <trans-unit id="pagination.2">
+                <source>abc</source>
+                <target state="translated">alphabetisch sortiert</target>
+            </trans-unit>  
+            
+            <trans-unit id="sortby">
+                <source>Sorting</source>
+                 <target state="translated">Sortierung</target>
+            </trans-unit>     
+            <trans-unit id="sortby.0">
+                <source>Title</source>
+                <target state="translated">Titel</target>               
+            </trans-unit>             
+            <trans-unit id="sortby.1">
+                <source>Date</source>
+                <target state="translated">Datum</target>
+            </trans-unit> 
+            <trans-unit id="sortby.2">
+                <source>Semester</source>
+                <target state="translated">Semester</target>
+            </trans-unit> 
+                     
+            <trans-unit id="asc">
+                <source>Sorting direction</source>
+                <target state="translated">Sortierrichtung</target>
+            </trans-unit>            
+            <trans-unit id="asc.0">
+                <source>0 = desc, 1 = asc(Standard)</source>
+                 <target state="translated">0 = absteigend, 1 = aufsteigend (Standard)</target> 
+            </trans-unit>      
+                
+            <trans-unit id="show">
+                <source>show/hide</source>
+                <target state="translated">zeigen/verstecken</target>
+            </trans-unit>    
+            
+        </body>        
+    </file>
+</xliff>            

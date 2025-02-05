@@ -1,0 +1,38 @@
+################################
+#### CONTENT ELEMENT WIZARD ####
+################################
+
+mod.wizards.newContentElement.wizardItems.plugins {
+    elements {
+        index {
+            iconIdentifier = Project-Plugin
+            title = LLL:EXT:project/Resources/Private/Language/locallang.xlf:titleindex
+            description = LLL:EXT:project/Resources/Private/Language/locallang.xlf:indexdescription
+            tt_content_defValues {
+                CType = list
+                list_type = project_index
+            }
+        }
+        lecture {
+            iconIdentifier = Project-LecturePlugin
+            title = LLL:EXT:project/Resources/Private/Language/locallang.xlf:titlelecture
+            description = LLL:EXT:project/Resources/Private/Language/locallang.xlf:lecturedescription
+            tt_content_defValues {
+                CType = list
+                list_type = project_lecture
+            }
+        }
+        list {
+            iconIdentifier = Project-ListPlugin
+            title = LLL:EXT:project/Resources/Private/Language/locallang.xlf:titlelist
+            description = LLL:EXT:project/Resources/Private/Language/locallang.xlf:listdescription
+            tt_content_defValues {
+                CType = list
+                list_type = project_list
+            }
+        }
+    }
+    
+    show := addToList(project_index,project_lecture,project_list)
+
+}

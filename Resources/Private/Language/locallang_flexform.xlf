@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" date="2021-11-04T13:09:36Z" product-name="projets">
+        <header/>
+        <body>
+
+            <trans-unit id="startingpoint">
+                <source>Startingpoint</source>
+            </trans-unit>    
+            
+            <trans-unit id="categories">
+                <source>Categories</source>
+            </trans-unit>    
+        
+           <trans-unit id="itemsperpage">
+                <source>ItemPerPage</source>
+            </trans-unit>  
+                              
+            <trans-unit id="maximumLinks">
+                <source>Max. links</source>
+            </trans-unit>    
+        
+            <trans-unit id="sheet_display">
+                <source>Display</source>
+            </trans-unit>    
+                          
+            <trans-unit id="pagination">
+                <source>Pagination</source>
+            </trans-unit>        
+            
+            <trans-unit id="pagination.0">
+                <source>no</source>
+            </trans-unit>       
+             
+            <trans-unit id="pagination.1">
+                <source>yes</source>
+            </trans-unit>    
+            
+            <trans-unit id="pagination.2">
+                <source>abc</source>
+            </trans-unit>  
+            
+            <trans-unit id="sortby">
+                <source>Sorting</source>
+            </trans-unit>     
+            <trans-unit id="sortby.0">
+                <source>Title</source>
+            </trans-unit>             
+            <trans-unit id="sortby.1">
+                <source>Date</source>
+            </trans-unit> 
+            <trans-unit id="sortby.2">
+                <source>Semester</source>
+            </trans-unit> 
+                     
+            <trans-unit id="asc">
+                <source>Sorting direction</source>
+            </trans-unit>            
+            <trans-unit id="asc.0">
+                <source>0 = desc, 1 = asc(Standard)</source>
+            </trans-unit>      
+                
+            <trans-unit id="show">
+                <source>show/hide</source>
+            </trans-unit>    
+            
+        </body>        
+    </file>
+</xliff>            
